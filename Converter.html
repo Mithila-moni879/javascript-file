@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<script>
+	function Convert(){
+	
+	var Bd=document.getElementById("Taka").value;
+	var pk=Bd*1.965;
+	var In=Bd*0.886;
+	var us=Bd*0.012;
+	var sa=Bd*0.044;
+	
+	document.getElementById("Pkr").value=pk;
+	document.getElementById("Rupee").value=In;
+	document.getElementById("Doller").value=us;
+	document.getElementById("Riyal").value=sa;
+	}
+	
+	
+</script>
+</head>
+
+<body>
+	<h2>Bangladeshi Currency Converter </h2>
+	
+	<form>
+	<label><strong>Enter Bangladeshi Taka</strong></label>
+	<input type="number" id="Taka">
+	
+	<br>
+	<br>
+	
+	<label><strong>Pakistani Rupee</strong></label>
+	<input type="number" id="Pkr">
+	
+	<br>
+	<br>
+	
+	<label><strong>Indian Rupee</strong></label>
+	<input type="number" id="Rupee">
+	
+	<br>
+	<br>
+	
+	<label><strong>US Doller</strong></label>
+	<input type="number" id="Doller">
+	
+	<br>
+	<br>
+	
+	<label><strong>Soudia Arabia Riyal</strong></label>
+	<input type="number" id="Riyal">
+	
+	<br>
+	<br>
+	
+	<input type="Submit" value="Convert" onclick="Convert()">
+</body>
+</html>
+	
+	
+	
